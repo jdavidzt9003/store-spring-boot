@@ -86,3 +86,11 @@ oracle.url= jdbc:oracle:thin:@//localhost:1521/ORCL
 oracle.username=store
 oracle.password=test
 ```
+
+#### Rest API
+##### Request
+###### GET product/{id}
+###### URL http://localhost:8080/product/2
+```sh
+{"id":2,"name":"Mouse","price":null,"quantity":0,"description":" Mouse Review","photo":null,"featured":false}
+```

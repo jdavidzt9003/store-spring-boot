@@ -29,8 +29,8 @@ public class ProductImpl implements ProductRepository {
         Map<String, Object> out = simpleJdbcCall.execute(in);
         Product product = new Product();
         product.setId(id);
-        product.setName((String)out.get("NAME"));
-        product.setDescription((String)out.get("DESCRIPTION"));
+        product.setName((String)out.get("OUT_NAME"));
+        product.setDescription((String)out.get("OUT_DESCRIPTION"));
         return product;
     }
 }

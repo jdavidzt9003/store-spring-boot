@@ -16,7 +16,7 @@ public class Product {
     @Column
     private String description;
     @Column
-    private String potho;
+    private String photo;
     @Column
     private boolean featured;
 
@@ -61,12 +61,12 @@ public class Product {
         this.description = description;
     }
 
-    public String getPotho() {
-        return potho;
+    public String getPhoto() {
+        return photo;
     }
 
-    public void setPotho(String potho) {
-        this.potho = potho;
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 
     public boolean isFeatured() {
